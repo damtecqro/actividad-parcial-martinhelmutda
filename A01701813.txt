@@ -1,0 +1,8 @@
+A01701813
+Martin Helmut Dominguez Alvarez
+
+¿Qué fue lo que más se te facilitó de la implementación de la vista?
+La parte del diseño de frontend, aunque buscar en la documentación de Material Design fue tardado 
+
+¿Qué fue lo que más se te dificultó de la implementación de la vista?
+Manejar los INTENT y la información entre vistas. Tardé mucho con eso

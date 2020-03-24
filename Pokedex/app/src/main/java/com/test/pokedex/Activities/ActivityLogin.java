@@ -41,6 +41,11 @@ public class ActivityLogin extends AppCompatActivity {
 
     }
 
+    @Override
+    protected void onResume(){
+        super.onResume();
+    }
+
     public void manageIntent(Intent intent){
         if(intent != null){
             username = intent.getStringExtra("USERNAME");
@@ -52,6 +57,9 @@ public class ActivityLogin extends AppCompatActivity {
         nombreUsuarioTexto = findViewById(R.id.nombre_usuario_login);
         contrasenaTexto    = findViewById(R.id.contrasena_login);
         inicioSesionBoton  = findViewById(R.id.boton_login);
+
+        nombreUsuarioTexto.setText(username);
+        contrasenaTexto.setText(password);
     }
 
     public void initializeListeners(){

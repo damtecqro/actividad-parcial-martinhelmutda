@@ -76,8 +76,5 @@ class ActivityList : AppCompatActivity() {
         recycler_view_list.layoutManager = linearLayoutManager
         recycler_view_list.adapter = adapter
         recycler_view_list.itemAnimator = DefaultItemAnimator()
-
-
     }
-
 }

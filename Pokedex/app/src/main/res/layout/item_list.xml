@@ -3,16 +3,17 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
     android:orientation="vertical"
     >
 
-    <ImageView
+    <ImageButton
+        android:id="@+id/pokemon_image"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:id="@+id/pokemon_image"
-        android:src="@drawable/pokemon_logo_min"
         android:layout_gravity="center"
-        />
+        android:background="?android:selectableItemBackground"
+        android:src="@drawable/pokemon_logo_min" />
 
     <TextView
         android:layout_width="match_parent"
@@ -33,10 +34,5 @@
         android:layout_marginRight="32dp"
         android:layout_marginBottom="8dp"
         />
-
-
-
-
-
 
 </LinearLayout>

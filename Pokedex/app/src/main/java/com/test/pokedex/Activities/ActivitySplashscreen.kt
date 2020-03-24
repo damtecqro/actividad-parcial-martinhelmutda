@@ -8,8 +8,9 @@ import com.test.pokedex.R
 
 class ActivitySplashscreen : AppCompatActivity() {
 
-    lateinit var handler: Handler
+
     val SPLASHCREEN_DURATION:Long = 3000
+    private lateinit var handler: Handler
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
